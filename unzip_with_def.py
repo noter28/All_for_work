@@ -2,7 +2,7 @@
 import shutil
 import os, sys
 import zipfile
-directory =         os.path.join('D:/','All_photos','20181016') #first source
+directory =         os.path.join('D:/','All_photos','20181018') #first source
 outcome_directory = directory + r'_unzip'     #output manually cropping photo
 just_photo = directory + r'_photo'
 files = os.listdir(directory) #list of item in directory
