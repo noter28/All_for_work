@@ -14,7 +14,7 @@ with open('qwerty.csv') as f:
         out.close()
         text = name[7]
         a = text.split('/')
-        print(a)
+        print(text)
         # img = Image.open(directory + '\\' + (row[0]))
         # img.save(outcome_directory + '\\' + (row[0]))
         # os.remove(directory + '\\' + (row[0]))
