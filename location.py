@@ -2,7 +2,7 @@ import googlemaps
 import json
 from pprint import pprint
 def loc():
-    gmaps = googlemaps.Client(key='AIzaSyAv44kmc0VxYNSCh8CgZsEYPNnDEph8o3k')
+    gmaps = googlemaps.Client(key='googleApikey')
 
 # Geocoding an address
     geocode_result = gmaps.geocode('520 Highway 119 Alabaster, AL 35007')
